@@ -1,0 +1,162 @@
+/* Reset default styles */
+body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  /* Top black strip */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pic-ctn {
+    width: 100vw;
+    height: 200px;
+  }
+  
+/* slide show */
+
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+  }
+  
+  .pic-ctn > img {
+    position: absolute;
+    top: 0;
+    left: calc(30% - 100px);
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+  
+  img:nth-child(6) {
+    animation-delay: 10s;
+  }
+  img:nth-child(7) {
+    animation-delay: 12s;
+  }
+
+  img:nth-child(8) {
+    animation-delay: 14s;
+  }
+
+
+  main {
+    padding: 30px;
+  }
+  
+ #hero {
+    display: flex;
+    font-family: 'Arial', serif;
+    font-size:1rem;
+    text-align: center;
+    margin:auto;
+    width:100%;
+    display: inline-block;
+    color:#104358;
+    position:relative;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+    .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  /* Clear floats after image containers */
+     .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /*section {
+    margin-bottom: 40px;
+  }
+  */
+  footer {
+    
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
