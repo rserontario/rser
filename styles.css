@@ -81,9 +81,9 @@ body, h1, h2, h3, ul, li, p {
   .pic-ctn > img {
     position: absolute;
     top: 0;
-    left: calc(60% - 100px);
+    left: calc(30% - 100px);
     opacity: 0;
-    animation: display 10s infinite;
+    animation: display 15s infinite;
   }
   
   img:nth-child(2) {
