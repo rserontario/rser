@@ -36,11 +36,34 @@ body, h1, h2, h3, ul, li, p {
 #rcorners {
 border-radius: 10px;
 border: 7px solid #000;
-
 width: 363px;
 height: 263px;
 }
-
+#rcorners1 {
+  border-radius: 10px;
+  border: 7px solid #000;
+  width: 250px;
+  height: 300px;
+  }
+  #rcorners2 {
+    border-radius: 10px;
+    border: 7px solid #000;
+    width: 250px;
+    height: 300px;
+    }
+    #rcorners3 {
+      border-radius: 10px;
+      border: 7px solid #000;
+      width: 250px;
+      height: 300px;
+      }
+      #rcorners4 {
+        border-radius: 10px;
+        border: 7px solid #000;
+        width: 250px;
+        height: 300px;
+        }
+                    
 .columnContact {
   margin-left: 40px;
   margin-top: 20px;
