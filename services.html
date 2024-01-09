@@ -8,6 +8,9 @@
   <link rel="images" href="images/">
  </head>
 <body>
+
+  <div class="header" id="myHeader"> <!--for static header-->
+
   <header>
     <nav>
       <ul>
@@ -19,7 +22,13 @@
       </ul>
     </nav>
   </header>
+
+  </div> <!--for static header-->
+
   <main>
+
+    <div class="content"> <!--for static header-->
+
     <section id="services">
         <h2>RSER Services</h2>
         <ul>
@@ -55,17 +64,34 @@
           Tires periodically should be checked for proper air pressure and filled if at a low level. 
           The tire pressure for each size of tire is located on the outer sidewall of the tire.
            My experience when a tire has a slow leak or is flat would be to install a tube inside the tire.
-
-
-
         </article>
       </section>
-
+    </div> <!--for static header-->
+    
 </main>
 
   <footer>
     <p>&copy; 2024 Ron's Small Engine Repair</p>
   </footer>
+
+
+  <!--script for header to be static at the top and doesn't scroll with text-->
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script> 
+
+
 </body>
 </html>
 

@@ -29,5 +29,24 @@
   <footer>
     <p>&copy; 2024 Ron's Small Engine Repair</p>
   </footer>
+
+<!--script for header to be static at the top and doesn't scroll with text-->
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+
+
 </body>
 </html>
