@@ -15,6 +15,16 @@ body, h1, h2, h3, ul, li, p {
   margin-bottom: 20px;
 }
 
+#servicesContact {
+  text-align: center;
+  margin-top: 20px;
+  text-indent:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
  /* for static header */
  .sticky {
   position: fixed;
@@ -24,6 +34,25 @@ body, h1, h2, h3, ul, li, p {
 .sticky + .content {
   padding-top: 102px;
 }
+
+
+.columnContact {
+  margin-top: 20px;
+  
+  float: left;
+  width: 50%;
+  
+}
+
+/* Clear floats after the columns */
+.rowContact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
 
   body {
     font-family: Arial, sans-serif;
