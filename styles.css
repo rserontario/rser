@@ -1,9 +1,23 @@
 /* Reset default styles */
 body, h1, h2, h3, ul, li, p {
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
   }
+
+
+
+@media only screen and (max-width:600px){
+
+  .column {
+    float: left;
+    width: 60%;
+    padding: 50px;
+  }
+  
+}
+
+
+
 
   .indent {
     text-indent:50px;
@@ -20,8 +34,6 @@ body, h1, h2, h3, ul, li, p {
 #servicesContact {
   text-align: center;
   margin-top: 40px;
- 
-
 }
 
 
