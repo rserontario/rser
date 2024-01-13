@@ -8,10 +8,7 @@ body, h1, h2, h3, ul, li, p {
 
 @media only screen and (max-width:600px){
 
-  .column {
-    float: left;
-    width: 60%;
-    padding: 50px;
+  
   }
   
 }
