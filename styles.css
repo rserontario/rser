@@ -230,7 +230,7 @@ height: 263px;
     .column2 {
       float:inline-start;
       width 30%;
-      padding-left: 10px;  }
+      padding-left: 20px;  }
   
   /* Clear floats after image containers */
      .row::after {
