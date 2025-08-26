@@ -25,12 +25,12 @@ body { font-family: 'Open Sans', sans-serif }
 }
 
 /* Desktops: flexbox child columns */
-@media (min-width: 500px) {
+@media (min-width: 768px) {
     .item-col-2 { width: 47% }
 }
 
 /* Mobiles: flexbox child columns */
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .item-col-2 { width: 100% }
     /* Vertical spacing under first child column */
     .item-col-2:first-child { margin-bottom: 32px }
