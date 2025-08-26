@@ -227,6 +227,11 @@ height: 263px;
     width: 45%;
     padding: 20px;
   }
+    .column2 {
+      float:inline-start;
+      width 45%;
+      padding: 20px:
+    }
   
   /* Clear floats after image containers */
      .row::after {
