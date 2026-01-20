@@ -96,8 +96,14 @@ height: 263px;
   clear: both;
 }
 
-
-
+.image-row {
+  display: flex;
+  gap: 20px;
+}
+.image-row img {
+  width: 35%;
+  height: auto;
+}
 
   body {
     font-family: Arial, sans-serif;
