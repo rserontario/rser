@@ -14,7 +14,11 @@ body, h1, h2, h3, ul, li, p {
 }
 
 
-
+@media (max-width: 600px) {
+  .image-row {
+    flex-direction: column;
+  }
+}
 
   .indent {
     text-indent:50px;
@@ -101,7 +105,7 @@ height: 263px;
   gap: 20px;
 }
 .image-row img {
-  width: 50%;
+  width: 60%;
   height: auto;
 }
 
