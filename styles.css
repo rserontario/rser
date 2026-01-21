@@ -95,6 +95,12 @@ height: 263px;
   clear: both;
 }
 
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 .image-row {
   display: flex;
   gap: 20px;
