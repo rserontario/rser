@@ -103,7 +103,7 @@ img {
 
 .image-row {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 .image-row img {
   width: 60%;
