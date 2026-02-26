@@ -4,20 +4,13 @@ body, h1, h2, h3, ul, li, p {
     padding: 0; 
   }
 
-
-
 @media only screen and (max-width:600px){
-
+ }
   
-  }
-  
-}
-
-
-
   .indent {
     text-indent:50px;
  }
+
 #services {
   margin-top: 20px;
   text-indent:20px;
@@ -149,6 +142,9 @@ img {
     height: 200vH;
   }
   
+  .wrap {
+      text-wrap: wrap;
+    }
 
   @keyframes display {
     0% {
