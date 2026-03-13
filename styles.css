@@ -4,7 +4,7 @@ body, h1, h2, h3, ul, li, p {
     padding: 0; 
   }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:760px){
  }
   
   .indent {
@@ -234,7 +234,7 @@ img {
 
   /* Three image containers (use 25% for four, and 50% for two, etc) */
     .column {
-    float: left;
+    float: center;
     width: 45%;
     padding: 20px;
   }
